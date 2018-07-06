@@ -7,7 +7,7 @@
 	<artifactId>Chapter2-1</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>2-1 服务注册与发现 </name>
+	<name>Template </name>
 	<description>The first Spring Boot project</description>
 
 	<parent>
@@ -29,10 +29,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-eureka-server</artifactId>
-		</dependency>
 
 	</dependencies>
 
@@ -47,7 +43,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 
 	<build>
 		<plugins>

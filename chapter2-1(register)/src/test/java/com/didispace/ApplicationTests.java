@@ -1,6 +1,5 @@
 package com.didispace;
 
-import com.didispace.web.HelloController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -27,7 +26,6 @@ public class ApplicationTests {
 
 	@Before
 	public void setUp() throws Exception {
-		mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();
 	}
 
 	@Test
