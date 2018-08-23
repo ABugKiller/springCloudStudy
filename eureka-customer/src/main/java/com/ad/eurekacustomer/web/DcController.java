@@ -17,7 +17,7 @@ public class DcController {
     @Autowired(required = false)
     ConsumerService consumerService;
 
-    @GetMapping("/consumer")
+    @GetMapping("/customer")
     public String dc() {
         return consumerService.consumer();
     }
